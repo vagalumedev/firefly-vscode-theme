@@ -1,0 +1,54 @@
+{
+  "author": {
+    "email": "patrick.fantato@vagalume.digital",
+    "name": "Patrick Fantato",
+    "url": "https://github.com/patrickcfantato"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "Theme",
+    "Dark Theme",
+    "Vagalume",
+    "Vagalume Digital",
+    "Vagalume Dev",
+    "Night Theme",
+    "Accessible Theme"
+  ],
+  "scripts": {
+    "publish": "vsce publish"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Firefly",
+        "path": "./themes/Firefly-color-theme.json",
+        "uiTheme": "vs-dark"
+      },
+      {
+        "label": "Firefly (No Italics)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Firefly-color-theme-noitalic.json"
+      }
+    ]
+  },
+  "description": "A VS Code theme for the fireflies out there. This theme is based on Sarah Drasner's Night Owl theme.",
+  "displayName": "Firefly",
+  "engines": {
+    "vscode": "^1.57.0"
+  },
+  "galleryBanner": {
+    "color": "#1d1d1b",
+    "theme": "dark"
+  },
+  "icon": "firefly-icon.png",
+  "name": "firefly",
+  "publisher": "vagalumedev",
+  "version": "0.0.1",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vagalumedev/firefly-vscode-theme"
+  }
+}
